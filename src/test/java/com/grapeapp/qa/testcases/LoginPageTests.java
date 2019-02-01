@@ -26,13 +26,5 @@ public class LoginPageTests extends Testbase {
 		verifyTestResult(actual, expected);
 		Assert.assertEquals(actual, expected);
 	}
-	
-	@Test(priority=3)
-	public void testLogo1() {
-		String actual = login.getLogo();
-		String expected = "#1 Free CRM software in the cloud for sales and service";
-		verifyTestResult(actual, expected);
-		Assert.assertEquals(actual, expected);
-	}
 
 }
